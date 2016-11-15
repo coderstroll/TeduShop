@@ -55,6 +55,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tedu.Common\Tedu.Common.csproj">
+      <Project>{37b83e82-09d6-4ceb-ba92-9ed3ede3f590}</Project>
+      <Name>Tedu.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeduShop.Data\TeduShop.Data.csproj">
+      <Project>{7e8d36ad-2201-4d37-aeff-2de442e2154f}</Project>
+      <Name>TeduShop.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
